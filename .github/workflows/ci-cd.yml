@@ -9,7 +9,7 @@ on:
 
 # 环境变量（需要替换 dockerhub-username 为你的实际用户名）
 env:
-  DOCKER_IMAGE: your-dockerhub-username/flask-cicd-demo
+  DOCKER_IMAGE: lesj163/flask-cicd-demo
   DOCKER_TAG: latest
 
 # 定义要执行的任务
