@@ -3,9 +3,9 @@ name: CI/CD Pipeline
 # 触发条件：当 push 到 main 分支，或创建 PR 到 main 分支时
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
 
 # 环境变量（需要替换 dockerhub-username 为你的实际用户名）
 env:
