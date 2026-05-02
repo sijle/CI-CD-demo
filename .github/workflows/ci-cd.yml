@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [ main ]
 
-# 环境变量（需要替换 dockerhub-username 为你的实际用户名）
+# 环境变量
 env:
   DOCKER_IMAGE: lesj163/flask-cicd-demo
   DOCKER_TAG: latest
