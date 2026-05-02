@@ -58,4 +58,4 @@ jobs:
       - name: 推送到 Docker Hub
         run: |
           docker push ${{ env.DOCKER_IMAGE }}:${{ env.DOCKER_TAG }}
-          docker push ${{ env.DOCKER_IMAGE }}:$(date +%Y%m%d-%H%M%S)
+          docker push ${{ env.DOCKER_IMAGE }}:$(date +%Y%m%d-%H%M%S) || true  # 即使失败也继续
